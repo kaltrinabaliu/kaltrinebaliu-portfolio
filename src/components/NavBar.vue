@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 
-const nav = ref < Boolean > false;
+const nav = ref (false);
 
 const handleNav = () => {
   nav.value = !nav.value;
@@ -9,9 +9,9 @@ const handleNav = () => {
 </script>
 <template>
   <div
-    class="relative z-10 text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-lg"
+    class="relative z-10 text-gray-500 flex justify-between items-center mx-auto h-24 px-6 text-lg"
   >
-    <h1 class="text-3xl font-bold primary-color ml-4">K.BALIU</h1>
+    <h1 class="text-3xl font-bold primary-color ml-2">K.BALIU</h1>
     <ul class="hidden md:flex">
       <li class="p-5"><a href="#home">Home</a></li>
       <li class="p-5"><a href="#about">About</a></li>

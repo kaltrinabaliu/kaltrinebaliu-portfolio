@@ -1,6 +1,6 @@
 <script setup>
 import profilepic from "../assets/profileImage.png";
-
+import CV from "../assets/CV.pdf";
 const text = ["Software Engineer"];
 </script>
 
@@ -10,14 +10,14 @@ const text = ["Software Engineer"];
       class="flex flex-col-reverse md:flex-row justify-center items-center lg:justify-between"
       id="home"
     >
-      <div class="flex-col my-auto mx-auto md:mx-0">
-        <p class="md:text-3xl xl:text-5xl text-xl font-bold text-gray-200">
+      <div class="flex-col my-auto mx-auto md:ml-6">
+        <p class="text-2xl xl:text-5xl font-bold text-gray-200">
           Hi!
         </p>
-        <p class="md:text-3xl xl:text-5xl text-xl font-bold text-gray-200">
+        <p class="text-2xl xl:text-5xl font-bold text-gray-200">
           I am Kaltrinë Baliu
         </p>
-        <h1 class="md:text-3xl xl:text-5xl text-xl font-bold md:py-6">
+        <h1 class="text-2xl xl:text-5xl font-bold md:py-6">
           <span>{{ text[0] }}</span>
         </h1>
         <div class="relative inline-flex group my-3">
@@ -25,8 +25,8 @@ const text = ["Software Engineer"];
             class="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF675E] to-[#FF676E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"
           ></div>
           <a
-            href="../assets/CV.pdf"
-            download
+            :href="CV"
+            download="Kaltrine_Baliu_CV.pdf"
             class="w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-300"
             >Download CV</a
           >
