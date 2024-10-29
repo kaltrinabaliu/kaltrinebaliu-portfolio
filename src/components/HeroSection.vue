@@ -25,7 +25,7 @@ const text = ["Software Engineer"];
             class="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF675E] to-[#FF676E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"
           ></div>
           <a
-            href="/CV.pdf"
+            href="../assets/CV.pdf"
             download="/CV.pdf"
             title="Download CV"
             role="button"
