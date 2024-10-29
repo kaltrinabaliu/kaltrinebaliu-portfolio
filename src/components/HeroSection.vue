@@ -26,7 +26,7 @@ const text = ["Software Engineer"];
           ></div>
           <a
             href="../assets/CV.pdf"
-            download="/CV.pdf"
+            download
             title="Download CV"
             role="button"
             class="w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-300"
