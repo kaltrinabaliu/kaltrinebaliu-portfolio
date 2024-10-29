@@ -8,7 +8,6 @@
     <MyEducation></MyEducation>
     <ContactForm></ContactForm>
     <Footer></Footer>
-
   </div>
 </template>
 
@@ -31,7 +30,7 @@ export default {
     Experience,
     MyEducation,
     ContactForm,
-    Footer
+    Footer,
   },
 };
 </script>

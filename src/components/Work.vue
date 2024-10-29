@@ -25,9 +25,7 @@ export default {
           <h2 class="text-2xl lg:text-3xl text-white">
             My <span>Projects</span>
           </h2>
-          <p class="text-gray-500">
-            These are my latest projects.
-          </p>
+          <p class="text-gray-500">These are my latest projects.</p>
         </div>
       </div>
 
@@ -76,5 +74,3 @@ export default {
     </div>
   </div>
 </template>
-
-

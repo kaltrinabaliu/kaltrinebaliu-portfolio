@@ -1,16 +1,16 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '@/views/HomeView.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
+    path: "/",
+    name: "home",
     component: HomeView,
   },
   // Optionally add a redirect from any other path
   {
-    path: '/:pathMatch(.*)*',
-    redirect: '/',
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
   },
 ];
 
