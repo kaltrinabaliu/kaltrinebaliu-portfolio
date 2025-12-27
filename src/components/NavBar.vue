@@ -9,7 +9,7 @@ const handleNav = () => {
 </script>
 <template>
   <div
-    class="relative z-10 text-gray-500 flex justify-between items-center mx-auto h-24 px-6 text-lg"
+    class="relative z-10 text-gray-500 flex justify-between items-center mx-auto h-24 px-4 md:px-8 text-lg"
   >
     <h1 class="text-3xl font-bold primary-color ml-2">K.BALIU</h1>
     <ul class="hidden md:flex">

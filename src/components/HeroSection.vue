@@ -7,10 +7,10 @@ const text = ["Software Engineer"];
 <template>
   <div>
     <div
-      class="flex flex-col-reverse md:flex-row justify-center items-center lg:justify-between"
+      class="flex flex-col-reverse md:flex-row justify-center items-center lg:justify-between px-4 md:px-8"
       id="home"
     >
-      <div class="flex-col my-auto mx-auto md:ml-6">
+      <div class="flex-col my-auto mx-auto md:ml-1">
         <p class="text-2xl xl:text-5xl font-bold text-gray-200">
           Hi!
         </p>

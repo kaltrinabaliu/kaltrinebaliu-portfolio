@@ -14,7 +14,7 @@ export default {
 <template>
   <div className="py-10 text-white bg-[#232325] h-auto" id="about">
     <div
-      className="flex md:flex-row flex-col-reverse items-center md:gap-5 px-4 md:px-12 max-w-6xl mx-auto"
+      className="flex md:flex-row flex-col-reverse items-center md:gap-5 px-4 md:px-8 mx-auto"
     >
       <div>
         <div className="p-2">
