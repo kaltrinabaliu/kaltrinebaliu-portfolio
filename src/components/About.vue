@@ -25,16 +25,7 @@ export default {
             <p
               className="text-justify leading-7 mx-auto text-[13px] md:text-[14px]"
             >
-              I am a passionate Software Engineer with hands-on experience in
-              both back-end and front-end development. I thrive in dynamic
-              environments, leveraging my skills to create efficient,
-              user-friendly applications. My proficiency in technologies like
-              .NET, React, Vue.js, Javascript and TypeScript, combined with
-              strong communication skills, allows me to collaborate effectively
-              with cross-functional teams. I’m eager to contribute to innovative
-              projects and continuously grow in my career. Outside of coding, I
-              enjoy exploring new tech tools and participating in coding
-              challenges.
+              I'm a Software Engineer with hands-on experience in Shopware, React, Vue, and PHP, specializing in the development of scalable, maintainable, and user-focused web applications. Strong problem-solving skills with a practical approach to building efficient solutions. Experienced in collaborating within cross-functional teams, adapting to new technologies, and continuously improving code quality to deliver reliable, high-impact products.
             </p>
           </div>
         </div>
@@ -49,7 +40,7 @@ export default {
           </div>
           <div className="bg-[#333333]/40 lg:p-5 p-[27px] rounded-lg">
             <h3 className="md:text-4xl text-2xl font-semibold text-white">
-              1
+              2
               <span>+</span>
             </h3>
             <p>

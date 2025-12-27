@@ -1,6 +1,6 @@
 <script setup>
 import profilepic from "../assets/profileImage.png";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/KALTRINË-BALIU.pdf";
 const text = ["Software Engineer"];
 </script>
 
